@@ -18,8 +18,9 @@ e) echo 'export PATH=$PATH:/home/taras/terraform_distrib' >> ~/.bashrc && source
 
 How to run:
 
-0) mkdir ~./terraform && cd ~./terraform
+0) mkdir ~./terraform_test_task && cd ~./terraform_test_task
 1) terraform init
 2) terraform apply
+3) enjoy! :)
 
 
