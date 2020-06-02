@@ -10,10 +10,10 @@ terraform:
 Preliminary steps:
 
 0) install terraform: 
-1) wget https://releases.hashicorp.com/terraform/0.12.26/terraform_0.12.26_linux_amd64.zip
-2) unzip terraform_0.12.26_linux_amd64.zip
-3) mkdir ~./terraform_distrib
-4) echo 'export PATH=$PATH:/home/taras/terraform_distrib' >> ~/.bashrc && source .bashrc
+0.1 wget https://releases.hashicorp.com/terraform/0.12.26/terraform_0.12.26_linux_amd64.zip
+0.2 unzip terraform_0.12.26_linux_amd64.zip
+0.3 mkdir ~./terraform_distrib
+0.4 echo 'export PATH=$PATH:/home/taras/terraform_distrib' >> ~/.bashrc && source .bashrc
 
 
 How to run:

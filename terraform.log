@@ -1,0 +1,21 @@
+
+....
+aws_instance.example (remote-exec): +--------------------+
+aws_instance.example (remote-exec): | Database           |
+aws_instance.example (remote-exec): +--------------------+
+aws_instance.example (remote-exec): | information_schema |
+aws_instance.example (remote-exec): | mysql              |
+aws_instance.example (remote-exec): | performance_schema |
+aws_instance.example (remote-exec): | taras_db           |
+aws_instance.example (remote-exec): +--------------------+
+aws_instance.example (remote-exec): +--------------------+
+aws_instance.example (remote-exec): | Tables_in_taras_db |
+aws_instance.example (remote-exec): +--------------------+
+aws_instance.example (remote-exec): | my_table_id        |
+aws_instance.example (remote-exec): +--------------------+
+aws_instance.example: Still creating... [40s elapsed]
+aws_instance.example: Creation complete after 40s [id=i-0aed2eb3c40750e74]
+
+Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
+taras@ubuntu:~/terraform_test_task$
+
