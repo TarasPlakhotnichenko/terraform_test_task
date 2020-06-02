@@ -41,7 +41,7 @@ resource "aws_instance" "example" {
     type     = "ssh"
     user = "ubuntu"
     host = "${aws_instance.example.public_dns}"
-    private_key = "${file("~/terraform-rds/taraspv.pem")}"
+    private_key = "${file("~/terraform_test_task/taraspv.pem")}"
     timeout = "10m"
   }
 
