@@ -23,4 +23,6 @@ How to run:
 2) terraform apply
 3) enjoy! :)
 
+PS private key is eliminated from this repository due to security concerns
+
 
